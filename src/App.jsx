@@ -62,7 +62,7 @@ const getProducts = async () => {
         ?.split("=")[1];
         axios.defaults.headers.common['Authorization'] = token;
       const response = await axios.post(
-        `${API_BASE}/api/user/check`, );
+        `${API_BASE}/api/user/check` );
           } catch (error) {
      
       console.error("登入失敗:", error);
